@@ -1,0 +1,53 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cbd5e1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.child-container {
+    margin-top: 0; /* Adjusted margin for proper alignment */
+    text-align: center;
+}
+
+.show-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.each-item {
+    background-color: #ffffff;
+    padding: 10px 20px; /* Small padding from top to bottom */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-btn {
+    display: flex;
+    gap: 10px;
+}
+
+.input {
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn {
+    width: 100px;
+    margin-left: 10px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+#date {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}

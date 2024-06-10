@@ -1,0 +1,55 @@
+.custom-modal .ant-modal-content {
+    border-radius: 8px;
+    overflow: hidden;
+    animation: modalFadeIn 0.3s ease-out;
+  }
+  
+  .custom-modal .ant-modal-header {
+    background: #f0f2f5;
+    border-bottom: none;
+    text-align: center;
+  }
+  
+  .custom-modal .ant-modal-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .custom-modal .ant-modal-body {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .custom-modal .ant-input {
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+  
+  .custom-modal .modal-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .custom-modal .ant-btn-primary {
+    background-color: #1890ff;
+    border-color: #1890ff;
+    border-radius: 4px;
+  }
+  
+  .custom-modal .ant-btn {
+    border-radius: 4px;
+  }
+  
+  @keyframes modalFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
